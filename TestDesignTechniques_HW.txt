@@ -1,4 +1,5 @@
-Variant 1
+Variant 1 (Task 3 - another file)
+
 1.Equivalence partitioning and Boundary value analysis
 In a system designed to work out the tax to be paid: An employee has $1000 of salary tax free. The next $500 is taxed at 10%. The next $4000 is taxed at 22%. Any further amount is taxed by 40%. Salary cannot be larger than $6000.
 1.Build equivalence classes (partitions) based on given information
