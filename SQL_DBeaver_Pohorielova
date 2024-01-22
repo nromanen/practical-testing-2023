@@ -1,0 +1,5 @@
+select c.company_name, c.contact_name, c.city, MAX(order_date) AS LastOrderDate, o.required_date, shipped_date,
+case when required_date > shipped_date then  'ontime' else 'overdate' end AS DeliveryStatus 
+from customers c 
+join orders o  on o.customer_id  = c.customer_id 
+group by company_name, contact_name, city, shipped_date, o.required_date 
